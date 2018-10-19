@@ -1,46 +1,1 @@
-# Contributing
-
-This is a community built document. Dive in and help out!
-
-### Issues
-
-- Please jump in and help us out by making PRs for open issues.
-- If you see anything you'd think could be improved, feel free to open an issue. This doesn't just mean for new additions you'd like to see - although those are very appreciated, too.
-
-### Pull Requests
-
-- Please title your pull requests appropriately, summing up what your commits are about.
-- Make sure that your submission doesn't exist somewhere else in the document.
-- If you can, run `doctoc README.md` before adding a new section, or after editing a section - this keeps the Table of Contents up to date. If you don't have it, you can install [DocToc here](https://github.com/thlorenz/doctoc).
-- Include the relevant branch before the `$` in a shell command, if needed. If not needed, please do not include a branch name.
-- Please label code blocks as `sh` to help out [linguist](https://github.com/github/linguist), unless the language is different.
-- Try and put relevant flight rules in the same general area of the document - deletes with deletes, commit amends with commit amends, and so on. We're working on making this better, so no worries if it is confusing - just throw the submission on the end.
-- Link to places you found answers or procedures if especially complicated, or if linking to a larger discussion of how to do something. This normally means linking to Stack Overflow.
-- Generally, conform to this schema:
-
-        <a name="example-title"></a>
-        # Example Title
-
-        Brief description of the problem.
-
-        ```sh
-        (relevant branch)$ git blah blah
-        ```
-
-## Translation
-
-We use a translation tool called [GitLocalize][gl]. Please follow these steps to get started with your contributions:
-
-1. Go to [GitLocalize's k88hudson/git-flight-rules repository][gl-repo].
-1. Sign up using your GitHub account :octocat:.
-1. Find the document you are going to translate.
-1. Happy translating :sparkles: .
-1. When you are done, send the translation for reviews.
-1. The reviewed translation will be sent as a Pull Request to GitHub by the language moderator in the community.
-
-To learn more about how GitLocalize works, visit their [help page][gl-help]. If you find any issues or feature requests, please file them in [GitLocalize's issue tracker][gl-issue-tracker].
-
-[gl]: https://gitlocalize.com
-[gl-help]: https://docs.gitlocalize.com/
-[gl-issue-tracker]: https://github.com/gitlocalize/feedback
-[gl-repo]: https://gitlocalize.com/repo/598
+﻿# Contributing다함께 만들어가는 저장소, 깃에 바다에 뛰어들어 기여의 손을 내밀어 주세요!### Issues- 해결되지 않은 이슈(open issues)에 풀리퀘스트(PR)를 날려 우리를 도울 수 있어요- 당신이 생각하기에 개선할 부분이 있다면, 어려워하지 말고 이슈를 열어주세요. (개선과 추가는 다릅니다! 물론, 더 보고싶은 내용을 추가해달라는 요청도 고마운 일이지만.)### Pull Requests- 풀리퀘스트는 당신의 커밋을 잘 요약하는 제목을 붙여주세요.- 당신의 풀리퀘스트가 이미 반영된 수정사항은 아닌지 확인하세요.- 가능하다면, 새 섹션을 추가하거나 수정하기 전에 `doctoc README.md`를 실행하세요. 이렇게 하면 문서의 목차를 최신화할 수 있어요. `doctoc`이 없으면, 여기 [DocToc 저장소](https://github.com/thlorenz/doctoc)에서 다운받을 수 있어요.- 쉘 명령어는 `$` 앞에 연관된 브랜치 이름을 써주세요. 필요하다면요. 필요하지 않으면, 브랜치 이름을 쓰지 않아도 돼요.- 같은 언어로 쓰인 코드는 `sh`처럼 감싸서 [linguist](https://github.com/github/linguist) 프로젝트를 도와주세요.   _linguist 프로젝트란? 깃허브 저장소 코드의 언어를 분석해주는 라이브러리_- 관련있는 flight rules은 문서에서 같은 영역으로 모아주세요. delete는 delete끼리, commit 수정은 commit 수정끼리, 등등. 이건 우리가 많이 노력하고 있으니까, 정 어려우면 혼란스러워하지 말고 일단 문서 가장 끝단에 추가해주세요.- 유별나게 어려운 문제에 대해서는 어디서 해결책을 찾았는지 링크를 걸어주세요. 아니면 어떻게 대처해야할지 토의하는 곳으로 링크를 걸어줘도 좋구요. 보통은 Stack Overflow죠.- 가급적 다음 양식을 준수하세요.        <a name="example-title"></a>        # Example Title        Brief description of the problem.        ```sh        (relevant branch)$ git blah blah        ```## Translation우리는  [GitLocalize][gl]이라는 번역툴을 사용하고 있어요. 다음 순서에 따라서 기여를 시작해보세요:1. [GitLocalize에서 k88hudson/git-flight-rules 저장소][gl-repo]로 이동한다.1. GitHub :octocat:. 계정으로 회원가입을 한다.1. 번역할 문서를 찾는다.1. 즐겁게 번역을 한다  :sparkles: .1. 다 됐으면, 번역 검토를 받는다.1. 검토가 완료된 번역은 커뮤니티의 언어 관리자가 깃허브에 풀리퀘스트로 반영해줍니다.GitLoclize에 대해서는, 웹사이트의 [help page][gl-help]를 보기 바래요. 무엇이든 이슈나 기능요청이 있으면, [GitLocalize's issue tracker][gl-issue-tracker]로 쌓아두면 돼요.[gl]: https://gitlocalize.com[gl-help]: https://docs.gitlocalize.com/[gl-issue-tracker]: https://github.com/gitlocalize/feedback[gl-repo]: https://gitlocalize.com/repo/598
